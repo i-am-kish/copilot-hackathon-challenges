@@ -12,6 +12,7 @@
 # Why this usecase?
 
 - This is a real time usecase that can add value to our customers, who wants to use a wired mode of communication for faster response during configuration
+- It really needs the domain knowledge for someone to create the source code from scratch
 
 # Technology
 
@@ -29,4 +30,14 @@ graph TD;
 
 # Outcome
 
-_ In-progess _
+PoC -> For transfering MODBUS params to device over serial
+
+![Wired Communication](images/frontend.png)
+_Wired communication with the sensor_
+
+# Contributors
+
+- Ravi Raj
+- Shakeeb
+- Kishore
+- Hardik
