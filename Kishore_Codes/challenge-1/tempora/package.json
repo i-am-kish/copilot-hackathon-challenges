@@ -1,0 +1,12 @@
+{
+  "name": "tempora",
+  "version": "1.0.0",
+  "description": "The user input based clock difference",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kishore Kadiyam",
+  "license": "ISC"
+}
