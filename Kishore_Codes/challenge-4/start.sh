@@ -45,13 +45,14 @@ function get_crc32_checksum {
 }
 
 # Example Usage
-file_path="/Users/olaflange/_dev/source/ghcp_hackathon/_fork/copilot-hackathon-challenges/challenge-4/azure-overview.png"
+file_path="./azure-overview.png"
 
 echo "Calculating CRC32 checksum for file: $file_path"
 
 if [[ -f "$file_path" ]]; then
     checksum=$(get_crc32_checksum "$file_path")
     echo "CRC32 checksum: $checksum"
+    sleep 5
 else
     echo "File Not Found: $file_path"
 fi
